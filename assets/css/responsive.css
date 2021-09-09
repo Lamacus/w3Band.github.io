@@ -1,0 +1,85 @@
+/* PC */
+@media (min-width: 1024px) {
+
+.searchBar {
+    display: none;
+}
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+.searchBar {
+    display: none;
+}
+
+#footer {
+    height: 350px;
+}
+
+}
+
+
+/* Mobile */
+@media (max-width: 740px) {
+
+#nav .none {
+    display: none;
+}
+
+.searchButton {
+    display: none ;
+}
+
+.searchBar {
+    display: block;
+    line-height: 46px;
+    color: #fff;
+}
+
+.textSlider {
+    display: none;
+}
+
+.teamMember {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.ticket {
+    padding-left: 10px;
+}
+
+.ticket li {
+    padding: 5px 0px;  
+}
+
+.ticket .quantity {
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.placeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.columnThird {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.columnHalf {
+    width: 100%;
+    margin-top: 16px;
+}
+
+}
