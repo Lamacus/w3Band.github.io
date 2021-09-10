@@ -271,6 +271,7 @@ html {
     background-color: #fff;
     margin-top: 30px;
     list-style-type: none;
+    padding: 0;
 }
 
 /* Ticket */
@@ -279,7 +280,7 @@ html {
     font-size: 15px;
     padding: 11px 16px;
     border-bottom: 1px solid #ddd;
-    color: #757575;  
+    color: #757575;
 }
 
 
